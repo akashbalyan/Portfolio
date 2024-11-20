@@ -186,7 +186,9 @@ section{
     width: 8rem;
     border-radius: 2rem;
 }
-
+.btn-color-1{
+    color: black;
+}
 .btn-color-2{
 color: white;
 background-color: rgb(82, 78, 78);
