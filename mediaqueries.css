@@ -2,7 +2,51 @@
     #desktop-nav{
         display: none;
     }
+    /*HAMBURGER MENU*/
     #hamburger-nav{
         display: flex;
+        justify-content: space-between;
+        padding-left: 25px;
+        padding-right: 25px;
+        height: 13vh;
+    }
+    .logo{
+        font-size: 1.25rem;
+    }
+    .menu-links{
+        z-index: 2;
+    }
+
+
+    /*PROFILE SECTION*/
+    
+    #profile{
+        flex-direction: column;
+        gap: 2rem;
+    } 
+    .section_pic-container{
+        height: 250px;
+        width: 250px;
+        align-self: center;
+        margin: 0;
+        z-index: 1;
+    } 
+    .section_pic-container img{
+        max-width: -webkit-fill-available;
+    }  
+    
+    .section_text_p1 {
+        font-size: 1.25rem;
+    }
+    .title{
+        font-size: 2.25rem;
+    }
+    .section_text_p2 {
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    .btn{
+        width: 9rem;
     }
 }
