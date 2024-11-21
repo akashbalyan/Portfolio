@@ -49,4 +49,10 @@
     .btn{
         width: 9rem;
     }
+
+    /*ABOUT ME SECTION*/
+    .section_intro_img-container{
+        display: none;
+    }
+
 }

@@ -38,6 +38,24 @@ function handleDayNightToggle(){
     const mobileLinks = document.querySelectorAll(".menu-links a");
     mobileLinks.forEach((link)=>{link.classList.toggle("nightMode")});
 
+    //About me section
+    const aboutmesection = document.querySelector("#about");
+    aboutmesection.classList.toggle("nightMode");
+
+    //About me  p
+    const aboutmep = document.querySelector(".section_aboutme p");
+    aboutmep.classList.toggle("nightMode");
+
+    //About me  h1
+    const aboutmeh1 = document.querySelector(".section_aboutme h1");
+    aboutmeh1.classList.toggle("nightMode");
+
+    //About me  intro paragraph
+    const aboutmeintrop = document.querySelector(".section_intro_paragraph p");
+    aboutmeintrop.classList.toggle("nightMode");
+
+
+
     
 
 }
