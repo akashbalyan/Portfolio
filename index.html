@@ -11,27 +11,38 @@
 <body>
     <nav id="desktop-nav">
         <div class="logo">Akash Balyan</div>
-        <div>
+        <div class="desktop-daynight-menulinks">
             <ul class="nav-links">
                 <li><a href="">Home</a></li>
                 <li><a href="">About</a></li>
                 <li><a href="">Experience</a></li>
             </ul>
+            <button class ="btn-daynight" 
+                    onclick="handleDayNightToggle()">
+                <div class="btn-daynight-2"> </div>
+            </button>
         </div>
     </nav>
     <nav id="hamburger-nav">
         <div class="logo">Akash Balyan</div>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="handleToggle()">
-                <span></span>
-                <span></span>
-                <span></span>
+        <div class="hamburger-daynight-menu">
+            <button class ="btn-daynight " 
+                    onclick="handleDayNightToggle()">
+                <div class="btn-daynight-2"> </div>
+            </button>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="handleToggle()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#home" onclick="handleToggle()">Home</a></li>
+                    <li><a href="#about" onclick="handleToggle()">About</a></li>
+                    <li><a href="#experience" onclick="handleToggle()">Experience</a></li>
+                </div>
             </div>
-            <div class="menu-links">
-                <li><a href="#home" onclick="handleToggle()">Home</a></li>
-                <li><a href="#about" onclick="handleToggle()">About</a></li>
-                <li><a href="#experience" onclick="handleToggle()">Experience</a></li>
-            </div>
+            
         </div>
     </nav>
     <section id="profile">

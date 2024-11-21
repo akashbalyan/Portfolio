@@ -57,7 +57,41 @@ a:hover{
 .logo:hover{
     cursor: default;
 }
+/*DESKTOP DayNight toggle*/
 
+.desktop-daynight-menulinks,
+.hamburger-daynight-menu{
+    display: flex;
+    align-items: center;
+}
+.btn-daynight{
+    height: 26px;
+    background-color: black;
+    width: 50px;
+    border-radius: 10rem;
+    margin-left: 1rem;
+    display: flex;
+    transition: all 1s ease;
+}
+.btn-daynight.nightMode{
+    /* justify-content: right; */
+    background-color: white;
+    border: 2px solid black;
+}
+.btn-daynight-2{
+    height: 85%;
+    width: 50%;
+    background-color: #edeef5;
+    border-radius: inherit;
+    margin: 2px;
+    transition: all 1s ease;
+    transform: translateX(0);
+}
+.btn-daynight-2.nightMode{
+    background-color: black;
+    transform: translateX(80%);
+    
+}
 /*HAMBURGER NAV*/
 
 #hamburger-nav{
@@ -74,6 +108,7 @@ a:hover{
     justify-content: space-between;
     height: 24px;
     width: 30px;
+    margin-left: 2rem;
     cursor: pointer;
 }
 .hamburger-icon span{
@@ -94,6 +129,7 @@ a:hover{
     transition: all 0.3s ease-in-out;
     border-radius: 1.5rem;
     background-color: #efefef;
+    margin-top: 0.5rem;
 }
 .menu-links li {
     list-style-type: none;
