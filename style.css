@@ -29,7 +29,11 @@ nav{
     justify-content: space-around;
     align-items: center;
     height: 17vh;
+    transition: all 1s ease;
 
+}
+nav.nightMode{
+    background-color: #2c2929;
 }
 .nav-links {
     gap: 2rem;
@@ -37,11 +41,15 @@ nav{
     font-size: 1.5rem;
     
 }
+.nav-links a.nightMode{
+    color: white;
+}
 
 a{
     color: black;
     text-decoration: none;
     text-decoration-color: white;
+    transition: all 1s ease;
 }
 a:hover{ 
     color: grey;
@@ -52,6 +60,10 @@ a:hover{
 
 .logo{
     font-size: 2rem;
+    transition: all 1s ease;
+}
+.logo.nightMode{
+    color: #f5ebeb;
 }
 
 .logo:hover{
@@ -115,7 +127,11 @@ a:hover{
     background-color: black;
     height: 2px;
     width: 100%;
-    transition: all 0.3 ease-in-out;
+    transition: all 1s ease;
+
+}
+.hamburger-icon span.nightMode{
+    background-color: white;
 
 }
 .menu-links{
@@ -130,6 +146,10 @@ a:hover{
     border-radius: 1.5rem;
     background-color: #efefef;
     margin-top: 0.5rem;
+    transition: all 1s ease;
+}
+.menu-links.nightMode{
+    background-color: #2c292973;
 }
 .menu-links li {
     list-style-type: none;
@@ -140,8 +160,12 @@ a:hover{
     padding: 10px;
     /* text-align: center; */
     font-size: 1.5rem;
-    transition: all 0.3s ease-in-out;
+    transition: all 1s ease;
 }
+.menu-links a.nightMode{
+    color: white;
+}
+
 .menu-links.open{
     max-height: 300px;
 }
@@ -188,6 +212,7 @@ section{
 .section_pic-container img {
     border-radius: 20rem;
     transform: rotate(-1deg);
+    box-shadow: 3px 12px 16px rgba(0, 0, 0, 0.3);
 }
 
 .section_text{
