@@ -104,6 +104,26 @@ a:hover{
     transform: translateX(80%);
     
 }
+.dayImage {
+    width: 72%;
+    border-radius: inherit;
+    margin-top: 1px;
+    transition: all 1s ease;
+}
+.dayImage.nightMode {
+   display: none;
+}
+.nightImage {
+    display: none;
+    width: 72%;
+    border-radius: inherit;
+    margin-top: 1px;
+    clip-path: circle(48% at 50% 50%);
+    transition: all 1s ease;
+}
+.nightImage.nightMode {
+    display: block;
+ }
 /*HAMBURGER NAV*/
 
 #hamburger-nav{

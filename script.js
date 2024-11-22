@@ -26,6 +26,14 @@ function handleDayNightToggle(){
     const desktopLinks = document.querySelectorAll(".nav-links a");
     desktopLinks.forEach((link)=>{link.classList.toggle("nightMode")});
 
+    //Desktop nightMode icon
+    const dayImage = document.querySelectorAll(".dayImage");
+    dayImage.forEach((btn)=>{btn.classList.toggle("nightMode")});
+
+    //Desktop nightMode icon
+    const nightImage = document.querySelectorAll(".nightImage");
+    nightImage.forEach((btn)=>{btn.classList.toggle("nightMode")});
+
     //Mobile Nav links
     const mobileNav = document.querySelectorAll(".menu-links");
     mobileNav.forEach((mobileNav)=>{mobileNav.classList.toggle("nightMode")});
