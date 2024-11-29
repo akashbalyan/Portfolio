@@ -55,4 +55,23 @@
         display: none;
     }
 
+    /*PROJECTS SECTION*/
+    #projects{
+        padding-bottom: 4rem;
+    }
+    .section_projects-container{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .project{
+        align-self:center ;
+        width: 250px;
+    }
+    .project-img{
+        height: 250px;
+    }
+    .project p{
+        display: none;
+    }
+
 }

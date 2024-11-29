@@ -322,7 +322,7 @@ background-color: #2c2929;
 }
 .section_aboutme h1{
     font-size: 2.5rem;
-    font-weight: 600;
+    font-weight: 500;
 }
 .section_aboutme h1.nightMode{
     color: white;
@@ -362,24 +362,58 @@ background-color: #2c2929;
 }
 .section_projects h1{
     font-size: 2.5rem;
-    font-weight: 600;
+    font-weight: 500;
 }
 #projects{
-    /* background-color: aquamarine; */
+    background-color: bisque;
     margin: 0;
 }
 .section_projects-container{
     display: flex;
     justify-content: space-around;
-    padding: 2rem;
+    
+}
+.project{
+     width: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    justify-content: center;
+    background-color: white;
+    padding: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+.project:hover{
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+   
 }
 
-.project{
-    width: 300px;
-    height: 400px;
-    object-fit: contain;
-    background-color: bisque;
+.project-img{
+    width: inherit;
+    height: 370px;
+    align-self: center;
+    
 }
-.project img{
-    width: -webkit-fill-available;
+.project-img img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    object-position: top;
+}
+.project-header{
+    align-self: center;
+    width: inherit;
+}
+.project h3{
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+.project p{
+    text-align: left;
+    font-size: 0.78rem;
+    font-weight: 400;
+    margin-top: 0.25rem;
 }
