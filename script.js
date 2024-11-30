@@ -62,6 +62,20 @@ function handleDayNightToggle(){
     const aboutmeintrop = document.querySelector(".section_intro_paragraph p");
     aboutmeintrop.classList.toggle("nightMode");
 
+    const footer = document.querySelector("#footer");
+    footer.classList.toggle("nightMode");
+
+    const footer_icons = document.querySelector(".footer_icons");
+    footer_icons.classList.toggle("nightMode");
+
+    const footer_icons_nightMode = document.querySelector(".footer_icons_nightMode");
+    footer_icons_nightMode.classList.toggle("nightMode");
+
+    const footer_icon = document.querySelectorAll(".footer_icon");
+    footer_icon.forEach((icon)=>{icon.classList.toggle("nightMode")});
+
+    const footer_titile = document.querySelector(".footer_title h4");
+    footer_titile.classList.toggle("nightMode");
 
 
     

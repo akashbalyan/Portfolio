@@ -428,15 +428,32 @@ background-color: #2c2929;
     flex-direction: column;
     padding: 15px 0 15px;
 }
-.footer_icons{
+#footer.nightMode{
+    background-color: black;
+}
+.footer_icons,.footer_icons_nightMode{
     display: flex;
     gap: 1.25rem;
     align-self: center;
     
 }
+.footer_icons.nightMode{
+    display: none;
+}
+.footer_icons_nightMode{
+    display: none;
+}
+.footer_icons_nightMode.nightMode{
+    display: flex;
+}
+
 .footer_icon{
     width: 25px;
     height: 25px;
+    background-color: white;
+}
+.footer_icon.nightMode{
+    border-radius: 7px;
 }
 .footer_icon:hover{
     cursor: pointer;
@@ -449,4 +466,7 @@ background-color: #2c2929;
 .footer_title h4{
     font-size: 0.75rem;
     font-weight: 400;
+}
+.footer_title h4.nightMode{
+    color: white;
 }
