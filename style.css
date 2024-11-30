@@ -435,8 +435,8 @@ background-color: #2c2929;
     
 }
 .footer_icon{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
 }
 .footer_icon:hover{
     cursor: pointer;
@@ -447,5 +447,6 @@ background-color: #2c2929;
     margin-top: 5px;
 }
 .footer_title h4{
+    font-size: 0.75rem;
     font-weight: 400;
 }
