@@ -307,6 +307,7 @@ color: white;
     background-color: rgb(177 176 176 / 21%);
     padding-left: 3rem;
     padding-right: 3rem;
+    padding-bottom: 4rem;
     height: 80vh;
     transition: all 1s ease;
 }
