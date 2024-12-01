@@ -74,4 +74,16 @@
         display: none;
     }
 
+    /* SKILLS SECTION*/
+
+    .skills_container{
+        display: grid
+;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        padding-bottom: 4rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+
 }
