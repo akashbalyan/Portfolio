@@ -436,7 +436,7 @@ background-color: #2c2929;
     padding: 15px 0 15px;
 }
 #footer.nightMode{
-    background-color: black;
+    background-color: #2c2929;
 }
 .footer_icons,.footer_icons_nightMode{
     display: flex;
@@ -460,7 +460,10 @@ background-color: #2c2929;
     background-color: white;
 }
 .footer_icon.nightMode{
-    border-radius: 7px;
+    border-radius: 6px;
+    padding: 2px;
+    filter: brightness(0.9);
+    
 }
 .footer_icon:hover{
     cursor: pointer;
