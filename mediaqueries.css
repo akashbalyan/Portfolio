@@ -106,5 +106,23 @@
     .education_mobile{
         display: block;
     }
+    .education{
+        width: 300px;
+    }
+    .education h3{
+        font-size: 1rem;
+
+    }
+    .education h4{
+        font-size: 0.75rem;
+    }
+    .education p{
+        font-size: 0.75rem;
+    }
+
+    .education_icon img{
+        width: 35px;
+        height: 35px;
+    } 
 
 }
