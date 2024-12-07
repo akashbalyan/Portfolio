@@ -92,6 +92,9 @@
     }
 
     /*Education Section*/
+    .section_education-container{
+        padding: 0;
+    }
     .left{
         display: none;
     }
@@ -107,7 +110,7 @@
         display: block;
     }
     .education{
-        width: 300px;
+        width: 250px;
     }
     .education h3{
         font-size: 1rem;
@@ -117,7 +120,7 @@
         font-size: 0.75rem;
     }
     .education p{
-        font-size: 0.75rem;
+        font-size: 0.5rem;
     }
 
     .education_icon img{

@@ -523,6 +523,7 @@ background-color: #2c2929;
 
 #education{
     margin: 0;
+    height: 90vh;
 }
 .section_education{
     display: flex;
@@ -539,6 +540,8 @@ background-color: #2c2929;
 .section_education-container{
     display: flex;
     height: 70vh;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 .left,.right{
     flex: 45%;
@@ -555,7 +558,7 @@ background-color: #2c2929;
     padding-bottom: 3rem;
 }
 .center{
-    flex: 10%;
+    flex: 6%;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -568,19 +571,42 @@ background-color: #2c2929;
     align-self: center;
     padding: 10px;
     border-radius: 10px;
+    position: relative;
 
 }
 .education_mobile{
     display: none;
 }
 .education_topics{
-    display: ruby;
+    display: inline;
 }
 .education_topics p{
+    display: inline-block;
     background-color: azure;
     border-radius: 10px;
     padding: 2px;
     margin: 5px;
+    font-size: 0.6rem;
+
+}
+.arrow_left{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #e2dede;
+    top: 50%;
+    left: 100%;
+    clip-path: polygon(0 0, 0 100%, 50% 50%);
+}
+.arrow_right{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #e2dede;
+    top: 50%;
+    right: 100%;
+    transform: rotate(180deg);
+    clip-path: polygon(0 0, 0 100%, 50% 50%);
 }
 .line{
     width: 4px;
