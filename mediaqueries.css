@@ -92,5 +92,19 @@
     }
 
     /*Education Section*/
+    .left{
+        display: none;
+    }
+    .center{
+        flex: 0%;
+    }
+    .right{
+        flex: 60%;
+        justify-content: space-around;
+        padding-bottom: 0;
+    }
+    .education_mobile{
+        display: block;
+    }
 
 }
