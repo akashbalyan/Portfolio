@@ -109,4 +109,20 @@ document.addEventListener("DOMContentLoaded", function () {
     education_icon_div.forEach(element => observer.observe(element));
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+    const text = "Full Stack Web Developer";
+    const typingText = document.getElementById("typing-text");
+    let index = 0;
+
+    function typeCharacter() {
+        if (index < text.length) {
+            typingText.innerHTML += text.charAt(index);
+            index++;
+            setTimeout(typeCharacter, 50); // Change the delay to control typing speed
+        }
+    }
+
+    typeCharacter(); // Start typing when the DOM is loaded
+});
+
 
