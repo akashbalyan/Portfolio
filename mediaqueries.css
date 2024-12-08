@@ -119,6 +119,7 @@
     }
     .education{
         width: 250px;
+        padding: 10px;
     }
     .education h3{
         font-size: 1rem;
@@ -135,6 +136,8 @@
         width: 40px;
         height: 40px;
     } 
-
+    .arrow_right{
+        top: 40%;
+    }
 
 }
