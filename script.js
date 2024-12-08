@@ -85,3 +85,28 @@ function handleDayNightToggle(){
 function navigateToRepo(url) {
     window.open(url, '_blank'); // Opens the link in a new tab
 }
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const education_div = document.querySelectorAll('.education');
+    const education_icon_div = document.querySelectorAll('.education_icon');
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('pop-up'); // Add pop-up class when visible
+                
+                // Wait for the animation duration before resetting
+                setTimeout(() => {
+                    entry.target.classList.remove('pop-up'); // Remove pop-up class
+                }, 500); // Match this time with the transition duration
+            }
+        });
+    }, { threshold: 0.2 }); // Trigger when 20% of the element is visible
+
+    // Observe each element
+    education_div.forEach(element => observer.observe(element));
+    education_icon_div.forEach(element => observer.observe(element));
+});
+
+
