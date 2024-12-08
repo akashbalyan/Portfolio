@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (index < text.length) {
             typingText.innerHTML += text.charAt(index);
             index++;
-            setTimeout(typeCharacter, 50); // Change the delay to control typing speed
+            setTimeout(typeCharacter, 90); // Change the delay to control typing speed
         }
     }
 

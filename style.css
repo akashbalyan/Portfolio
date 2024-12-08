@@ -232,7 +232,7 @@ section{
 }
 @keyframes slideInFromLeft {
     0% {
-        transform: translateX(-50%);
+        transform: translateX(-20%);
         opacity: 0;
     }
     100% {
@@ -265,7 +265,7 @@ section{
 }
 @keyframes slideInFromRight {
     0% {
-        transform: translateX(50%);
+        transform: translateX(20%);
         opacity: 0;
     }
     100% {
@@ -615,7 +615,7 @@ background-color: #2c2929;
     
 }
 .pop-up {
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 .education_mobile{
