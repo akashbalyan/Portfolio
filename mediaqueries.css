@@ -30,7 +30,11 @@
         align-self: center;
         margin: 0;
         z-index: 1;
+        animation: pop-up 0.5s ease-out forwards;
     } 
+    .section_text{
+        animation: pop-up 0.5s ease-out forwards;
+    }
     .section_pic-container img{
         max-width: -webkit-fill-available;
     }  
