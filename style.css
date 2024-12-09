@@ -362,7 +362,7 @@ background-color: #2c2929;
 }
 .section_aboutme h1{
     font-size: 2.5rem;
-    font-weight: 500;
+    font-weight: 300;
 }
 .section_aboutme h1.nightMode{
     color: white;
@@ -391,6 +391,7 @@ background-color: #2c2929;
 }
 .section_intro_paragraph p {
     align-self: center;
+    color: rgb(41 31 31);
 }
 .section_intro_paragraph p.nightMode{
     color: #dfdada;
@@ -408,7 +409,7 @@ background-color: #2c2929;
 }
 .section_projects h1{
     font-size: 2.5rem;
-    font-weight: 500;
+    font-weight: 300;
 }
 #projects{
     background-color: bisque;
@@ -540,7 +541,7 @@ background-color: #2c2929;
 }
 .section_skills h1{
     font-size: 2.5rem;
-    font-weight: 500;
+    font-weight: 300;
 }
 .skills_container{
     display: flex;
@@ -578,7 +579,7 @@ background-color: #2c2929;
 }
 .section_education h1{
     font-size: 2.5rem;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 .section_education-container{
@@ -625,8 +626,15 @@ background-color: #2c2929;
 .education_mobile{
     display: none;
 }
-.year{
+.education h3{
+    font-weight: 450;
+}
+h4{
+    font-weight: 350;
+}
+h5{
     margin-bottom: 1rem;
+    font-weight: 200;
 }
 .education_topics{
     display: inline;
