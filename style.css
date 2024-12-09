@@ -85,6 +85,9 @@ a:hover{
     margin-left: 1rem;
     display: flex;
     transition: all 1s ease;
+    /* disabling daynight button temporarily*/
+    display: none;
+    pointer-events: none;
 }
 .btn-daynight.nightMode{
     /* justify-content: right; */
