@@ -96,6 +96,9 @@
     }
 
     /*Education Section*/
+    #education{
+        height: 94vh;
+    }
     .section_education-container{
         padding: 0;
     }
