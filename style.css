@@ -305,6 +305,7 @@ section{
     padding: 1rem;
     width: 8rem;
     border-radius: 2rem;
+    border: 0;
 }
 .btn-color-1{
     color: black;
